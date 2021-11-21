@@ -1,75 +1,153 @@
-nav {
-    background-color: rgb(240, 255, 255);
-    text-align: right;
-}
-
-body {
-    background-color: #cccc;
-    color: effff;
-}
-
-#center {
-    display: block;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-#centre {
-    display: block;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-ul {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#kayo {
-    text-align: center;
-}
-
-.yang {
-    color: mediumseagreen
-}
-
-.font {
-    color: rgb(255, 0, 0);
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.header {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(95, 158, 160);
-}
-
-#header {
-    color: navy;
-    font-family: fantasy;
-}
-
-#pricing {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.product>.level {
-    background-color: #ddd;
-    color: black;
-    padding: 15px 0;
-    width: 100%;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+                                    nav {
+                                        background-color: rgb(240, 255, 255);
+                                        text-align: right;
+                                    }
+                                    
+                                    body {
+                                        background-color: #cccc;
+                                        color: effff;
+                                        margin: 20;
+                                    }
+                                    
+                                    #container {
+                                        color: rgb(255, 255, 255);
+                                    }
+                                    
+                                    #center {
+                                        display: block;
+                                        height: auto;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                        width: 50%;
+                                    }
+                                    
+                                    #centre {
+                                        display: block;
+                                        height: auto;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                        width: 50%;
+                                    }
+                                    
+                                    ul {
+                                        text-align: center;
+                                    }
+                                    
+                                    #kayo {
+                                        text-align: center;
+                                    }
+                                    
+                                    .yang {
+                                        color: mediumseagreen
+                                    }
+                                    
+                                    .font {
+                                        color: blueviolet;
+                                        text-align: center;
+                                    }
+                                    
+                                    .log {
+                                        display: flex;
+                                        height: px;
+                                        width: 45%;
+                                        border: 1px solid #444;
+                                        padding: 0px;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        justify-content: space-evenly;
+                                        align-items: center;
+                                        align-content: center;
+                                    }
+                                    
+                                    #menu {
+                                        display: list-item;
+                                    }
+                                    
+                                    h2 {
+                                        text-align: center;
+                                    }
+                                    
+                                    #projects {
+                                        background-color: #cccc
+                                    }
+                                    
+                                    #projects,
+                                    h1 {
+                                        text-align: center;
+                                        color: rgb(255, 255, 255);
+                                        text-decoration: underline;
+                                    }
+                                    
+                                    .projects {
+                                        display: flex;
+                                        height: px;
+                                        border: 1px solid #444;
+                                        padding: 10px;
+                                        flex-direction: row;
+                                        flex-wrap: wrap;
+                                        justify-content: space-evenly;
+                                        align-items: stretch;
+                                        align-content: stretch;
+                                    }
+                                    
+                                    .flex {
+                                        width: 300px;
+                                        background-color: black;
+                                        margin: 10px;
+                                        color: rgb(255, 255, 255);
+                                        font-size: 150%;
+                                        text-align: center;
+                                    }
+                                    
+                                    .project1 {
+                                        order: 1;
+                                    }
+                                    
+                                    .project2 {
+                                        order: 2;
+                                    }
+                                    
+                                    .project3 {
+                                        order: 3;
+                                    }
+                                    
+                                    .project4 {
+                                        order: 4;
+                                    }
+                                    
+                                    .project5 {
+                                        order: 5;
+                                    }
+                                    
+                                    .projectt6 {
+                                        order: 6;
+                                    }
+                                    
+                                    button {
+                                        background-color: rgb(7, 7, 26);
+                                        color: rgb(255, 255, 255);
+                                        width: 300px;
+                                    }
+                                    
+                                    .btn {
+                                        text-align: center;
+                                        padding-top: 50px;
+                                    }
+                                    
+                                    #contact {
+                                        background-color: rgb(2, 5, 14);
+                                        color: rgb(245, 239, 239);
+                                        text-align: center;
+                                        width: 100%;
+                                    }
+                                    
+                                    footer,
+                                    #contact {
+                                        color: rgb(240, 255, 255);
+                                        padding: 2px 8px;
+                                        float: right;
+                                        text-align: center;
+                                        font-size: 16px;
+                                        background-color: rgb(2, 5, 14);
+                                        width: 100%;
+                                    }

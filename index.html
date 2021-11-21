@@ -9,29 +9,127 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <nav class="yang">
-    <buttuon></buttuon>
-    <a href="./edu.html">Education</a>
-    <a href="./abt.html">About</a> Info Contacts
+    <buttuon>
+        <a href="./edu.html">Education</a>
+        <a href="./abt.html">About</a> Info Contacts
+    </buttuon>
 </nav>
 
 <body>
     <header id="headr"><a href="./mus.html">Music</a> | <a href="./news.html">Promotion/News</a> | <a href="./on.html"> Online-market</a></header>
     <nav id="containter">
-        <input type="text" placeholder="search">
+        <form action="/search/" autocomplete="off" method="get" role="search">
+
+            <input type="search" id="header-search-bar" name="q" placeholder="search" value="">
+        </form>
         <button><a href="./menu.html ">log in</a></button>
         <button><a href="./sign.html ">sign up</a></button>
     </nav>
 
-    <section id="pricing">
-        <div class="product" id="tenor">
-            <div class="level">jackets</div>
-            <h2>$600</h2>
-            <ol>
-                <li> <img src="photos/clothes.jpg " alt="clothes " width="45% " height="45% " id="centre"> </li>
-            </ol>
-            <button class="btn">Select</button>
+    <section id="pricing ">
+
+        <div id="projects" class="projects">
+
+
+
+            <div class="flex project1">
+
+                <h3 class="project-title">Jackets $100</h3>
+
+                <img src="photos/clothes.jpg" height="300px" width="300px" alt="project1">
+
+                <a href="#"><button>View</button></a>
+
+
+
+            </div>
+
+            <div class="flex project2">
+
+                <h3 class="project-title">Watch $20</h3>
+
+                <img src="photos/watch.jpg" height="300px" width="300px" alt="project1">
+
+                <a href="#"><button>View</button></a>
+
+
+
+            </div>
+
+            <div class="flex project3">
+
+                <h3 class="project-title">Dresses $60</h3>
+
+                <img src="photos/dress.jpg" height="300px" width="300px" alt="project1">
+
+                <a href="#"><button>View</button></a>
+
+
+
+            </div>
+
+        </div>
+        <div id="projects" class="projects">
+            <div class="flex project1" style="float: left;">
+
+                <h3 class="project-title">Boots $120</h3>
+
+                <img src="photos/boots.jpg" height="300px" width="300px" alt="project1">
+
+                <a href="#"><button>View</button></a>
+
+            </div>
+
+            <div class="flex project2">
+
+                <h3 class="project-title">Books $40</h3>
+
+                <img src="photos/book.jpg" height="300px" width="300px" alt="project1">
+                <a href="#"><button>View</button></a>
+
+
+
+            </div>
+
+            <div class="flex project3">
+
+                <h3 class="project-title">Title</h3>
+
+                <img src="Images/wiki.png" height="300px" width="300px" alt="project1">
+
+                <a href="#"><button>View</button></a>
+
+
+            </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>&c all rights reserved 2021</p>
+        <div id="contact ">
+
+
+            <ul>
+
+                <li><a href="#about ">Facebook</a></li>
+
+                <li><a href="#work ">Github</a></li>
+
+                <li><a href="#contact ">Twitter</a></li>
+
+                <li><a href="#contact ">Send Email</a></li>
+
+                <li><a href="#contact ">Call me</a></li>
+
+
+
+            </ul>
+
         </div>
 
+    </footer>
 
 
 </body>
