@@ -17,7 +17,7 @@
 
 
     <div id="log ">
-        <form action="/tacos ">
+        <!-- <form action="/tacos ">
             <p>
                 <label for="username ">Enter your userame</label>
                 <input id="username " type=" text " placeholder="ente your user name ">
@@ -38,8 +38,39 @@
             </label>
             </p>
         </form>
-        <button>log in</button>
+        <button>log in</button> -->
+
+
+
+
+        <form action="action_page.php" method="post">
+            <div class="imgcontainer">
+                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <p> <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                </p>
+                <p>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                </p>
+                <button type="submit">Login</button>
+                <p>
+                    <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+                </p>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
     </div>
+
 </body>
 
 </html>
