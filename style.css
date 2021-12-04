@@ -7,6 +7,7 @@
                                         background-color: #cccc;
                                         color: effff;
                                         margin: 20;
+                                        padding: 5;
                                     }
                                     
                                     #container {
@@ -21,21 +22,20 @@
                                         width: 50%;
                                     }
                                     
-                                    #centre {
+                                    .center {
                                         display: block;
-                                        height: auto;
                                         margin-left: auto;
                                         margin-right: auto;
-                                        width: 50%;
+                                        width: 100;
                                     }
                                     
                                     ul {
-                                        text-align: center;
+                                        list-style-position: inside;
                                     }
-                                    
+                                    /*                                     
                                     #kayo {
                                         text-align: center;
-                                    }
+                                    } */
                                     
                                     .yang {
                                         color: mediumseagreen
